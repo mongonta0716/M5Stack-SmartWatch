@@ -3,7 +3,14 @@
  RTC(Realtime Time Clock)を接続したM5Stack用のスマートウォッチアプリです。
 
 # ハードウェア(Hardware)
+- M5Stack Basic（PCF8523のI2Cアドレスが0x68のため今のところBasicのみです。）
 - Adafruit PCF8523
+- M5Stack WatchBand
+- PowerModule for M5Stack
+
+作り方は下記のブログで詳しく説明しています。（日本語のみ）
+
+[M5StackでRTC付きのスマートウォッチを作ってみる【ハード編】｜ラズパイ好きの日記](https://raspberrypi.mongonta.com/howto-make-m5smartwatch-hardware/)
 
 # 使い方(Usage)
 
